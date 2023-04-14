@@ -1,20 +1,17 @@
-<p align="center"><img src="screenshots/logo.png"></p>
-
 <h2 align="center">Hint Hotkeys for Anki</h2>
 
 <p align="center">
 <a title="Latest (pre-)release" href="https://github.com/glutanimate/hint-hotkeys/releases"><img src ="https://img.shields.io/github/release-pre/glutanimate/hint-hotkeys.svg?colorB=brightgreen"></a>
 <a title="License: GNU AGPLv3" href="https://github.com/glutanimate/hint-hotkeys/blob/master/LICENSE"><img  src="https://img.shields.io/badge/license-GNU AGPLv3-green.svg"></a>
-<a title="Rate on AnkiWeb" href="https://ankiweb.net/shared/info/1844908621"><img src="https://glutanimate.com/logos/ankiweb-rate.svg"></a>
 <br>
-<a title="Buy me a coffee :)" href="https://ko-fi.com/X8X0L4YV"><img src="https://img.shields.io/badge/ko--fi-contribute-%23579ebd.svg"></a>
+<a title="Rate on AnkiWeb" href="https://ankiweb.net/shared/info/1844908621"><img src="https://glutanimate.com/logos/ankiweb-rate.svg"></a>
 <a title="Support me on Patreon :D" href="https://www.patreon.com/bePatron?u=7522179"><img src="https://img.shields.io/badge/patreon-support-%23f96854.svg"></a>
 <a title="Follow me on Twitter" href="https://twitter.com/intent/user?screen_name=glutanimate"><img src="https://img.shields.io/twitter/follow/glutanimate.svg"></a>
 </p>
 
-> Reveal Anki hints with a single button press
+> Reveal Anki hints with the single press of a button
 
-This is an add-on for the spaced-repetition flashcard app [Anki](https://apps.ankiweb.net/) that adds two **hotkeys** to the **reviewer**: 'H' to **reveal hints** one by one, 'G' to reveal all hints at once. Both hotkeys can be customized.
+This is an add-on for the spaced-repetition flashcard app [Anki](https://apps.ankiweb.net/) that adds two **hotkeys** to the **reviewer**: *H* to **reveal hints** one by one, *G* to reveal all hints at once. Both hotkeys can be customized.
 
 ### Table of Contents <!-- omit in toc -->
 
@@ -100,8 +97,10 @@ Contributions are welcome! Please review the [contribution guidelines](./CONTRIB
 
 *Hint Hotkeys* is
 
-*Copyright (c) 2012 Ben Lickly*
 *Copyright © 2016-2023 [Aristotelis P.](https://glutanimate.com/) (Glutanimate)*
+
+*Copyright © 2012 Ben Lickly*
+
 
 This add-on is a rewrite of [Hint-peeking Keyboard Bindings](https://ankiweb.net/shared/info/2616209911) by Ben Lickly. All credit for the original idea goes to him.
 
