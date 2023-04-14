@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Hint Hotkeys",
+  "properties": {
+    "hotkey_reveal_one": {
+      "type": "string",
+      "title": "Reveal One Hotkey",
+      "description": "Hotkey to reveal one hint",
+      "default": "H"
+    },
+    "hotkey_reveal_all": {
+      "type": "string",
+      "title": "Reveal All Hotkey",
+      "description": "Hotkey to reveal all hints",
+      "default": "G"
+    }
+  }
+}

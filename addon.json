@@ -1,0 +1,16 @@
+{
+    "display_name": "Hint Hotkeys",
+    "module_name": "hint_hotkeys",
+    "repo_name": "hint-hotkeys",
+    "ankiweb_id": "1844908621",
+    "author": "Glutanimate",
+    "contact": "https://glutanimate.com",
+    "homepage": "https://github.com/glutanimate/hint-hotkeys",
+    "copyright_start": 2016,
+    "tags": "",
+    "conflicts": [],
+    "targets": [
+        "anki21"
+    ],
+    "min_anki_version": "2.1.49"
+}
