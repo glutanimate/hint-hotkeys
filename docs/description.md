@@ -1,6 +1,6 @@
 <!-- BANNER -->
 
-Adds two **hotkeys** to the **reviewer**: 'H' to **reveal hints** one by one, 'G' to reveal all hints at once. Both hotkeys can be customized.
+Adds two **hotkeys** to the **reviewer**: 'H' to **reveal hints** one by one, 'Shift+H' to reveal all hints at once. Both hotkeys can be customized.
 
 ![](https://raw.githubusercontent.com/glutanimate/hint-hotkeys/master/screenshots/screenshot.png)
 
@@ -9,6 +9,10 @@ Adds two **hotkeys** to the **reviewer**: 'H' to **reveal hints** one by one, 'G
 ### CONFIGURATION
 
 To change the hotkeys, simply head to *Tools* → *Add-ons*, find *Hint Hotkeys* in the list of add-ons, and then click on the *Config* button. The info pane to the right will explain how to set the keys.
+
+### TROUBLESHOOTING
+
+If the default hotkeys and/or your customized hotkeys do not work, it is likely due to a key conflict with a card template, add-on, or Anki itself. In that case please try out another hotkey, taking heed to go back to Anki's main screen to make sure your changes are applied.
 
 <!-- CHANGELOG -->
 

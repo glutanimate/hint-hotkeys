@@ -11,7 +11,7 @@
 
 > Reveal Anki hints with the single press of a button
 
-This is an add-on for the spaced-repetition flashcard app [Anki](https://apps.ankiweb.net/) that adds two **hotkeys** to the **reviewer**: *H* to **reveal hints** one by one, *G* to reveal all hints at once. Both hotkeys can be customized.
+This is an add-on for the spaced-repetition flashcard app [Anki](https://apps.ankiweb.net/) that adds customizable hint reveal hotkeys to the reviewer.
 
 ### Table of Contents <!-- omit in toc -->
 
