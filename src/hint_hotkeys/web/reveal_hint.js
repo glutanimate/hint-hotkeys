@@ -1,8 +1,8 @@
 /**
  *
- * @param {boolean} incremental
+ * @param {boolean} revealAll
  */
-function hintHotkeysRevealHints(incremental) {
+function hintHotkeysRevealHints(revealAll) {
   // Cloze Overlapper support
   if (typeof olToggle === "function") {
     olToggle();
@@ -20,15 +20,15 @@ function hintHotkeysRevealHints(incremental) {
     cancelable: true,
   });
 
-  const arr = document.getElementsByClassName("hint");
-  for (var i = 0; i < arr.length; i++) {
-    let l = arr[i];
-    if (l.style.display === "none") {
+  const hintElements = document.getElementsByClassName("hint");
+  for (var i = 0; i < hintElements.length; i++) {
+    let hint = hintElements[i];
+    if (hint.style.display === "none" || hint.href === undefined) {
       continue;
     }
-    if (l.href.charAt(l.href.length - 1) === "#") {
-      l.dispatchEvent(clickEvent);
-      if (incremental) {
+    if (hint.href.charAt(hint.href.length - 1) === "#") {
+      hint.dispatchEvent(clickEvent);
+      if (!revealAll) {
         break;
       }
     }
