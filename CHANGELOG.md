@@ -2,20 +2,29 @@
 
 All notable changes to Hint Hotkeys will be documented here. You can click on each release number to be directed to a detailed log of all code commits for that particular release. The download links will direct you to the GitHub release page, allowing you to manually install a release if you want.
 
-If you enjoy Hint Hotkeys, please consider supporting my work on Patreon, or by buying me a cup of coffee :coffee::
+If you enjoy Hint Hotkeys, please consider supporting my work on Patreon:
 
 <p align="center">
-<a href="https://www.patreon.com/glutanimate" rel="nofollow" title="Support me on Patreon 😄"><img src="https://glutanimate.com/logos/patreon_button.svg"></a>      <a href="https://ko-fi.com/X8X0L4YV" rel="nofollow" title="Buy me a coffee 😊"><img src="https://glutanimate.com/logos/kofi_button.svg"></a>
+<a href="https://www.patreon.com/glutanimate" rel="nofollow" title="Support me on Patreon 😄"><img src="https://glutanimate.com/logos/patreon_button.svg"></a>
 </p>
 
 :heart: My heartfelt thanks goes out to everyone who has supported this add-on through their tips, contributions, or any other means (you know who you are!). All of this would not have been possible without you. Thank you for being awesome!
 
 ## [Unreleased]
 
+### Changed
+
+- Completely rewrote the add-on with 2.1.5x+ compatibility in mind (tested on 2.1.49 - 2.1.62)
+- Changed default hotkey for revealing all hints to "Shift+H" in order to avoid key conflict with Image Occlusion Enhanced
+
 ### Added
+
+- Hotkeys can now be configured via Anki's built-in add-on config editor
 
 ### Fixed
 
+- Fixed an issue that was causing the add-on not to work properly when audio or TTS was present on the card (thanks to DoctorToBeIn23 for the report and ijgnd for the fix!)
+- Fixed an issue that was preventing the reveal all hotkey from actually revealing all hints
 
 
 ## 0.1.0 - 2017-08-23
